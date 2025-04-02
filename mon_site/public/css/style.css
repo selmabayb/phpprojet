@@ -1,0 +1,99 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style général */
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Conteneur principal */
+main {
+    margin: 20px;
+}
+
+/* Films */
+#films-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.film {
+    background-color: #222;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.film h3 {
+    color: #ffcc00;
+}
+
+/* Formulaires */
+form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #ffcc00;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+/* Pied de page */
+footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    margin-top: 20px;
+}
